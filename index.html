@@ -8,34 +8,31 @@
 
     <meta name="keywords" content="박기동, somsaetang, github" />
 
-    <title>
-      
-      박기동의 웹
-      
-    </title>
+    <title> 박기동의 웹 </title>
 
-   <link href = "style.css" rel = "stylesheet"> 
-
-   <script type="text/javascript" src="C:\Users\rlehd\.vscode\jquery.js"> </script>
-
-    <script>
-
-    $(function(){
-        alert('제이쿼리의 세계에 오신것을 환영합니다.');
-        alert('hihi.');
-        alert('hih22.');
-        alert('hih23.');
-
-    });
-
-   </script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   </head>
 
   <body>
+
+    <input type="button" id="greeting" value="인사말" />
+
+    <div id="output">  </div>
   
-    <script src="main.js"> </script>
-  
+    <script>
+      $(function(){
+        $('#greeting').mouseenter(function(){
+          $('#output').text('Hello World!');
+        });
+      });
+    </script>
+
+    <script>
+      $('#output').text('Hello dfsdrld!');
+    </script>
+
+
   </body>
   
 </html>
