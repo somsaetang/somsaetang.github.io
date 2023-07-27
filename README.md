@@ -1,2 +1,1 @@
-공부 기록
-[](https://somsaetang.github.io/)
+[공부 기록](https://somsaetang.github.io/)
