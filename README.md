@@ -1,2 +1,2 @@
 공부 기록
-somsetang.github.io
+[](https://somsaetang.github.io/)
