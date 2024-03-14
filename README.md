@@ -1,2 +1,2 @@
-[링크](https://somsaetang.github.io)
+[https://somsaeatng.github.io](https://somsaetang.github.io)
 
